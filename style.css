@@ -5,29 +5,30 @@
     box-sizing: border-box;
 }
 body{
-    margin: 40px 170px;
-    padding: 20px;
+    margin: 0 170px;
+    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-image: url("img/headerback.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
    background-size: cover; 
      margin: 0 auto; 
      display: block;
-    padding: 40PX;
+    padding: 20px 0;
     
 }
 .head{
     /* background: cornflowerblue; */
     font-size: 14px;
-    width: 500px;
+    width: 400px;
     height: 100px;
-    
     margin-left: auto;
-    margin-right: 0;        
+    /* margin-right: 0; */
+    /* margin: 0 auto;   */
+    padding: 20px 0;      
 }
 .container {
     width: 1000px;
@@ -36,7 +37,7 @@ header {
 
 nav {
     width: 1000px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   a {
     text-decoration: none;
@@ -60,7 +61,7 @@ nav {
     color: white;
     font-size: 18px;
     display: block;
-    padding: 5px 5px;
+    padding: 5px;
   }
   
   .menu li a:hover {
@@ -71,25 +72,37 @@ nav {
     color: blueviolet;
   }
 main {
-    background-image: url("img/middleback.jpg");
-    background-repeat: no-repeat;
-    /* background-position: right;
+  background-image: url("img/middleback.jpg");
+  background-repeat: no-repeat;
+  /* background-position: right;
     background-size: cover;  */
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     display: block;
-   padding: 40PX;
-    width: 1000px;
-    height: 500px;
-     margin: 40px auto;
+   /* padding: 20PX; */
+    /* width: 1100px; */
+    /* height: 500px; */
+     /* margin: 40px auto; */
 }
 .main{
-   
-    width: 450px;
-    height: 100px;
+  
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
+  /* background-size: cover; */
+  /* margin: 0 auto;  */
+  width: 400px; 
+  text-align: left;
+  font-size: 12px;
+  padding: 20PX;
+ 
+  height: auto 0; 
     
-    margin-left: 0;
-    margin-right: auto;        
+  /* margin-left: 0;
+  margin-right: auto;         */
 }
+/* .main p{
+  text-align: left;
+   width: 400px; 
+} */
 h1{
     color: lightblue;
     text-align: left;
@@ -114,9 +127,9 @@ h2{
 
 
 article {
-     background: coral;
+     /* background: coral; */
     width: 30%;
-    height: 250px; 
+    height: auto 250px 0 0; 
     display: inline-block;
     padding: 10px;
     vertical-align: top;  
@@ -131,7 +144,7 @@ article {
       }
       
 .article p {
-    padding: 5PX;
+    padding: 5px;
        
         /* text-align: center; */
         font-size: 14px
