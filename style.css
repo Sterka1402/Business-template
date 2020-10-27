@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 40px 170px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("img/headerback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover; 
+     margin: 0 auto; 
+     display: block;
+    padding: 40PX;
+    
+}
+.head{
+    /* background: cornflowerblue; */
+    font-size: 14px;
+    width: 500px;
+    height: 100px;
+    
+    margin-left: auto;
+    margin-right: 0;        
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+   
+  }
+.menu {
+    list-style: none;
+    font-size: 0;
+    background: lightskyblue;
+    /* text-align: center; */
+  }
+  
+  .menu li {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    /* border: 5px solid lime; */
+  }
+  
+  .menu li a {
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 5px 5px;
+  }
+  
+  .menu li a:hover {
+    background: cornflowerblue;
+  }
+  
+  .menu li a:active {
+    color: blueviolet;
+  }
+main {
+    background-image: url("img/middleback.jpg");
+    background-repeat: no-repeat;
+    /* background-position: right;
+    background-size: cover;  */
+    margin: 0 auto; 
+    display: block;
+   padding: 40PX;
+    width: 1000px;
+    height: 500px;
+     margin: 40px auto;
+}
+.main{
+   
+    width: 450px;
+    height: 100px;
+    
+    margin-left: 0;
+    margin-right: auto;        
+}
+h1{
+    color: lightblue;
+    text-align: left;
+}
+h2{
+    color: lightblue;
+}
+ a.button {
+        display: inline-block;
+        color:darkgrey;
+        text-decoration: none;
+        padding: 0.8em 2em;
+        margin: 20px;
+        outline: none;
+        border-width: 2px;
+        border-style: solid none;
+        border-color: darkgray;
+        border-radius: 20px;
+        background: whitesmoke;
+        transition: 0.2s;
+      } 
+
+
+article {
+     background: coral;
+    width: 30%;
+    height: 250px; 
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;  
+    margin: auto; 
+   
+       }
+.article {
+        list-style: none;
+        font-size: 12px;
+        padding: 20px;
+       
+      }
+      
+.article p {
+    padding: 5PX;
+       
+        /* text-align: center; */
+        font-size: 14px
+      }
+.feet {
+    list-style: none;
+    font-size: 10px;
+   
+  }
+  
+  .feet li {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    font-size: 14px
+  }
+  
+  .feet li a {
+    color:black;
+    font-size: 12px;
+    display: block;
+    padding: 10px 15px;
+  }
+  
