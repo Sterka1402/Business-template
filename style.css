@@ -13,59 +13,52 @@ body{
 header {
     background-image: url("img/headerback.jpg");
     background-repeat: no-repeat;
-    /* background-position: center; */
-   background-size: cover; 
-     margin: 0 auto; 
-     display: block;
-    padding: 20px 0;
+    margin: 0 auto; 
+    display: block;
+    padding: 20px 10px;
     
 }
+
 .head{
-    /* background: cornflowerblue; */
     font-size: 14px;
     width: 400px;
     height: 100px;
     margin-left: auto;
-    /* margin-right: 0; */
-    /* margin: 0 auto;   */
     padding: 20px 0;      
 }
 .container {
     width: 1000px;
     margin: 0 auto;
   }
-
-nav {
-    width: 1000px;
-    /* margin: 0 auto; */
-  }
   a {
     text-decoration: none;
    
   }
+nav {
+    width: 1000px;
+}
+  
 .menu {
     list-style: none;
     font-size: 0;
-    background: lightskyblue;
-    /* text-align: center; */
-  }
+    background:#2c9ab5;
+ }
   
   .menu li {
     display: inline-block;
     width: 10%;
     text-align: center;
-    /* border: 5px solid lime; */
   }
   
   .menu li a {
     color: white;
     font-size: 18px;
     display: block;
-    padding: 5px;
+    padding: 5px 0 5px 0;
   }
   
   .menu li a:hover {
-    background: cornflowerblue;
+    background:#2c9ab5;
   }
   
   .menu li a:active {
@@ -74,48 +67,29 @@ nav {
 main {
   background-image: url("img/middleback.jpg");
   background-repeat: no-repeat;
-  /* background-position: right;
-    background-size: cover;  */
-    /* margin: 0 auto;  */
-    display: block;
-   /* padding: 20PX; */
-    /* width: 1100px; */
-    /* height: 500px; */
-     /* margin: 40px auto; */
+  display: block;
 }
 .main{
-  
-  /* background-repeat: no-repeat; */
-  /* background-position: right; */
-  /* background-size: cover; */
-  /* margin: 0 auto;  */
-  width: 400px; 
+  width: 450px;
   text-align: left;
   font-size: 12px;
-  padding: 20PX;
+  padding: 40PX 50px;
  
-  height: auto 0; 
-    
-  /* margin-left: 0;
-  margin-right: auto;         */
 }
-/* .main p{
-  text-align: left;
-   width: 400px; 
-} */
+
 h1{
-    color: lightblue;
+    color: #2c9ab5;
     text-align: left;
 }
 h2{
-    color: lightblue;
+    color: #2c9ab5;
 }
  a.button {
         display: inline-block;
         color:darkgrey;
         text-decoration: none;
         padding: 0.8em 2em;
-        margin: 20px;
+        margin: 20px auto;
         outline: none;
         border-width: 2px;
         border-style: solid none;
@@ -127,7 +101,6 @@ h2{
 
 
 article {
-     /* background: coral; */
     width: 30%;
     height: auto 250px 0 0; 
     display: inline-block;
@@ -135,7 +108,7 @@ article {
     vertical-align: top;  
     margin: auto; 
    
-       }
+  }
 .article {
         list-style: none;
         font-size: 12px;
@@ -143,29 +116,45 @@ article {
        
       }
       
-.article p {
-    padding: 5px;
-       
-        /* text-align: center; */
-        font-size: 14px
+p {
+    padding: 5px 0;
+    color: grey;
+    font-size: 14px
+    }
+    .border p {
+      border-style: dashed;
+      border-width: 0 0 1px 0;
+      border-color: lightgray;
+    }
+    .article p a{
+       color:#2c9ab5;
       }
 .feet {
     list-style: none;
     font-size: 10px;
-   
+    
   }
   
   .feet li {
     display: inline-block;
-    width: 12%;
+    width: 10%;
     text-align: center;
-    font-size: 14px
+    font-size: 14px;
+    color: gray;
+    border-style: solid; 
+    border-width: 0 1px 0 0;
+    border-color: lightgray;
   }
   
   .feet li a {
-    color:black;
+    color: gray; 
     font-size: 12px;
     display: block;
     padding: 10px 15px;
   }
-  
+  .email{
+    text-decoration: underline;
+  }
+  .designed {
+    text-align: right;
+  }
