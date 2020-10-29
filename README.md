@@ -1,3 +1,0 @@
-# Business-template
-hello   
-world 
