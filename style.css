@@ -16,13 +16,14 @@ body{
   background-image: url("img/headerback.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 50px 0 55px 10px;  
 }
 
 .head{
   font-size: 14px;
-  width: 400px;
+  width: 500px;
   margin-left: auto;
-  padding: 20px 0 20px 50px;  
+  padding: 0 0 0 80px;
   display: inline-block;    
 }
 
@@ -63,10 +64,9 @@ nav {
 .main {
   background-image: url("img/middleback.jpg");
   background-repeat: no-repeat;
-  margin-left: auto;
-  text-align: left;
+  background-size: contain;
   font-size: 12px;
-  padding: 40px 50px;
+  padding: 50px 50px 15px 40px;
   
  
 }
@@ -74,6 +74,11 @@ nav {
 h1{
     color: #2c9ab5;
     text-align: left;
+}
+.text{
+   margin-right: auto;
+   width: 400px;
+
 }
 h2{
     color: #2c9ab5;
@@ -83,7 +88,7 @@ h2{
         color:darkgrey;
         text-decoration: none;
         padding: 0.8em 2em;
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
         outline: none;
         border-width: 2px;
         border-style: solid none;
@@ -91,31 +96,33 @@ h2{
         border-radius: 20px;
         background: whitesmoke;
         transition: 0.2s;
-      } 
+        font-size: 16px;
+  } 
 
 
 article {
-    width: 33%;
-    height: auto 250px 0 0; 
+    width: 33.1%;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 0px 50px 20px;
     vertical-align: top;  
-    /* margin: auto;  */
-   
+      
   }
 .article {
         list-style: none;
         font-size: 12px;
-        padding: 10px;
         color: grey;
       }
       
 p {
     padding: 5px 0;
-    
     font-size: 14px
     }
+    ul{
+      list-style: none;
+    }
+
     .border li a{
+     
       border-style: dashed;
       border-width: 0 0 1px 0;
       border-color: lightgray;
@@ -123,11 +130,15 @@ p {
     .article p a{
        color:#2c9ab5;
       }
+      .article p {
+        line-height: 2;
+       }
     .article li a {
+      
       color: gray; 
       font-size: 12px;
       display: block;
-      padding: 10px 0;
+      padding: 5px 0;
     }
 .feet {
     list-style: none;
@@ -139,7 +150,6 @@ p {
     display: inline-block;
     width: 10%;
     text-align: center;
-    font-size: 14px;
     color: gray;
     border-style: solid; 
     border-width: 0 1px 0 0;
@@ -155,6 +165,10 @@ p {
   .email{
     text-decoration: underline;
   }
-  .designed {
+  .footer {
+    display: inline;   
+    color: gray;
+  }
+  .signature {
     text-align: right;
   }
