@@ -8,17 +8,15 @@
   margin: 0 auto;
 }
 body{
+  background: #f8f8f8;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 .back {
   background-image: url("img/headerback.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0 55px 10px;  
 }
-
 .head{
   font-size: 14px;
   width: 500px;
@@ -26,51 +24,41 @@ body{
   padding: 0 0 0 80px;
   display: inline-block;    
 }
-
 a {
   text-decoration: none;
 }
 nav {
   background:#2c9ab5;
 }
-  
 .menu {
     list-style: none;
     font-size: 0;
-    
-}
-  
-  .menu li {
+}  
+.menu li {
     display: inline-block;
     width: 10%;
     text-align: center;
   }
-  
-  .menu li a {
+.menu li a {
     color: white;
     font-size: 18px;
     display: block;
     padding: 5px 0 5px 0;
+  } 
+.menu li a:hover {
+    color: chocolate;
   }
   
-  .menu li a:hover {
-    background:#2c9ab5;
-  }
-  
-  .menu li a:active {
+.menu li a:active {
     color: blueviolet;
   }
-
 .main {
   background-image: url("img/middleback.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 12px;
   padding: 50px 50px 15px 40px;
-  
- 
 }
-
 h1{
     color: #2c9ab5;
     text-align: left;
@@ -78,7 +66,6 @@ h1{
 .text{
    margin-right: auto;
    width: 400px;
-
 }
 h2{
     color: #2c9ab5;
@@ -95,46 +82,37 @@ h2{
         border-color: darkgray;
         border-radius: 20px;
         background: whitesmoke;
-        transition: 0.2s;
         font-size: 16px;
   } 
-
-
 article {
     width: 33.1%;
     display: inline-block;
     padding: 10px 0px 50px 20px;
-    vertical-align: top;  
-      
+    vertical-align: top;    
   }
 .article {
-        list-style: none;
         font-size: 12px;
         color: grey;
-      }
-      
+}      
 p {
     padding: 5px 0;
     font-size: 14px
-    }
-    ul{
-      list-style: none;
-    }
-
-    .border li a{
-     
+}
+ul{
+    list-style: none;
+ }
+.border li a{  
       border-style: dashed;
       border-width: 0 0 1px 0;
       border-color: lightgray;
-    }
-    .article p a{
+}
+.article p a{
        color:#2c9ab5;
       }
-      .article p {
+.article p {
         line-height: 2;
        }
-    .article li a {
-      
+.article li a {
       color: gray; 
       font-size: 12px;
       display: block;
@@ -142,20 +120,17 @@ p {
     }
 .feet {
     list-style: none;
-    font-size: 10px;
-    
+    font-size: 10px; 
   }
-  
   .feet li {
     display: inline-block;
-    width: 10%;
+    width: 15%;
     text-align: center;
     color: gray;
     border-style: solid; 
     border-width: 0 1px 0 0;
     border-color: lightgray;
-  }
-  
+  }  
   .feet li a {
     color: gray; 
     font-size: 12px;
@@ -165,11 +140,15 @@ p {
   .email{
     text-decoration: underline;
   }
-  .footer {
-    display: inline;   
+  footer{
     color: gray;
   }
-  
+  .footer_menu {
+    display: inline-block;   
+    width: 700px;
+  }
   .signature {
+    display: inline-block; 
     text-align: right;
+    width: 300px;
   }
